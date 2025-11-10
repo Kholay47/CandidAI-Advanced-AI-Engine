@@ -1,0 +1,19 @@
+smart-resume-screener/
+│── pyproject.toml
+│── README.md
+│
+├── backend/
+│   ├── main.py              # FastAPI backend entry
+│   ├── parsers.py           # Resume/JD parsing logic
+│   ├── nlp_utils.py         # NLP models (NER, embeddings, similarity)
+│   ├── summarizer.py        # Candidate summarization
+│   └── storage.py           # Ephemeral session storage (Redis)
+│
+├── frontend/
+│   └── app.py               # Streamlit UI
+│
+├── models/                  # Pretrained models (spaCy, embeddings)
+│
+├── data/                    # Sample resumes & job descriptions
+│
+└── tests/                   # Unit tests
