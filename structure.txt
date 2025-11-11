@@ -14,6 +14,4 @@ smart-resume-screener/
 │
 ├── models/                  # Pretrained models (spaCy, embeddings)
 │
-├── data/                    # Sample resumes & job descriptions
-│
-└── tests/                   # Unit tests
+├── Samples/                    # Sample resumes & job descriptions
